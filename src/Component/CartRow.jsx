@@ -1,6 +1,6 @@
 import React from 'react'
 import { useDispatch } from 'react-redux';
-import {removeCart ,QunatityDecrease, QunatityIncrease} from '../store/CartSlice';
+import {removeCart ,QunatityDecrease, QunatityIncrease} from '../Store/CartSlice';
 
 const CartRow = ({obj}) => {
   let{ quantity , data} =obj;
